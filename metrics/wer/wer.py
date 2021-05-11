@@ -48,7 +48,7 @@ I is the number of insertions,
 C is the number of correct words,
 N is the number of words in the reference (N=S+D+C).
 
-WER's output is always a number between 0 and 1. This value indicates the percentage of words that were incorrectly predicted. The lower the value, the better the
+WER's output is not always a number between 0 and 1, in particular when there is a high number of insertions. This value is often associated to the percentage of words that were incorrectly predicted. The lower the value, the better the
 performance of the ASR system with a WER of 0 being a perfect score.
 """
 
